@@ -1,0 +1,20 @@
+1.安装Nodejs，不要中文路径
+cmd中 输入 node -v 查看版本
+
+2.cmd中 输入安装命令；如果已经安装过Vue版本不是5.0.8的  可以使用 npm uninstall vue 卸载  
+最后进行 安装 
+npm install -g @vue/cli 
+进行vue cli（脚手架）的安装
+
+（如果安装下载过慢，可以修改镜像路径，可提高不少下载速度）复制下面命令到CMD窗口
+npm config set registry=http://registry.npmmirror.com
+然后重新执行 安装命令
+
+完毕之后使用 vue  --version 查看版本 目前版本为 5.0.8
+
+3. cmd找一个目录（cd  目录）,cmd中输入 vue  create  项目名称（全小写）
+
+4. cd  项目目录中 ，然后执行 npm  run  serve  (vue3的写法 )
+
+备注：如果从网上下载vue项目，IDEA打开项目，打开Terminal 先执行 初始化 nmp  install
+在启动 npm  run  serve
